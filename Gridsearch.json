@@ -1,0 +1,20 @@
+{
+    "Input": {
+        "seq_len_L": 96,
+        "seq_len_S": 12,
+        "label_len": 24
+    },
+    "Model": {
+        "e_layers": 3,
+        "d_layers": 2,
+        "d_model": 512,
+        "n_heads": 8,
+        "moving_avg_L": 12,
+        "moving_avg_S": 9
+    },
+    "Training": {
+        "batch_size": 256,
+        "learning_rate": 0.0001
+    },
+    "best_score": 0.11262431728533417
+}
